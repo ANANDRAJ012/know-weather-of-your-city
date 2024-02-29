@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <div class="containernav">
+                        <img id="weather_Icon"
+                            src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/c6023f30971807.563b2b13a55cc.gif">
+                        <li class="logo">Weather Craft</li>
+                        <ul>
+
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main>
+
+                <section class="input-part">
+
+
+                    <div class="content">
+                        <input id="input" type="text" spellcheck="false" placeholder="Enter City's name">
+                        <div class="location"><img
+                                src="https://static.vecteezy.com/system/resources/previews/000/338/081/original/vector-location-icon.jpg">
+                        </div>
+                    </div>
+                    <button class="get_location">Get Location</button>
+                    <div class="city_Name">
+                        <span id="informationText"><sup>o</sup>C </span>
+                    </div>
+
+                    <div class="cityName">City</div>
+                    <div class="continer">
+                        <div class="item1">
+                            <div id="min_temp"><img
+                                    src="https://th.bing.com/th/id/OIP.u-69oE99hrED4CXmgIci9gHaE8?w=306&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    style="    height: 79px;margin: 0px 0px -16px 12px;"><br>Min-Temp</div>
+                        </div>
+                        <div class="item2">
+                            <div id="maxtemp"><img
+                                    src="https://th.bing.com/th/id/OIP.ucyHRNE_GoKpbKkUm27u3wHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1.3"
+                                    style="    height: 79px;margin: 0px 0px -16px 31    px;"><br>Max-Temp</div>
+                        </div>
+                        <div class="item3">
+                            <div id="wind_speed"><img
+                                    src="https://www.bing.com/th/id/OGC.5a843f886a433a45be17a552e5836c62?pid=1.7&rurl=https%3a%2f%2fmedia4.giphy.com%2fmedia%2f3MbRNvfnMyUJeKGlsw%2fgiphy.gif&ehk=HO7lonNSADfRyL6o1CgQ571G2mXZwa%2fwCyhBV9c7g40%3d"
+                                    style="    height: 79px;margin: 0px 0px -16px 21px;"><br>Wind speed</div>
+                        </div>
+                        <div class="item4">
+                            <div id="humidity"><img
+                                    src="https://th.bing.com/th/id/OIP.1ZYsx909iSElh13IuNwEPAHaHa?w=212&h=212&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    style="    height: 79px;margin: 0px 0px -16px 18px;"><br>humidity</div>
+                        </div>
+                        <div class="item5">
+                            <div id="feels_like"><img
+                                    src="https://www.bing.com/th/id/OGC.e0f92ab7a4946a8a1551ebc2f29d8028?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fimages%2fe0f92ab7a4946a8a1551ebc2f29d8028%2ftenor.gif%3fitemid%3d4173067&ehk=JXoaCPAoJHCHuwUB9%2fetRJFFykED6Jz0Ts9OqKSQlXg%3d"
+                                    style="    height: 79px;margin: 0px 0px -16px 0px;"><br>feels_like</div>
+                        </div>
+                        <div class="item6">
+                            <div id="pressure"><img src="https://i.ytimg.com/vi/EV8xSgEnsqU/maxresdefault.jpg"
+                                    style="    height: 79px;margin: 0px 0px -16px 0px;"><br>pressure</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="weather-part">
+                    <div class="temp">
+                        <span class="numb"></span>
+                        <span class="deg"></span>
+
+                    </div>
+                    <div class="weather"></div>
+                    <div class="location">
+                        <i class="location-text"></i>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+
+        </footer>
+    </body>
+    <script src="./index.js"></script>
+
+</html>
