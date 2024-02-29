@@ -78,6 +78,7 @@ body {
 }
 
 .get_location {
+    cursor: pointer;
     border-radius: 35px;
     background-color: #1fb0d8;
     font-size: 33px;
