@@ -121,7 +121,7 @@ body {
     padding: 12px;
     /* min-height: 223px;
    min-width: 203px; */
-    background-color: rgb(126, 201, 226);
+    background-color: rgb(126, 201, 226, .3);
     /* border: 3px solid rgb(85, 181, 214); */
     align-items: center;
     justify-content: center;
