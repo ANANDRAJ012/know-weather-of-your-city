@@ -48,7 +48,7 @@ function onSuccess(position) {
   fetchData();
 }
 function onError(error) {
-  alert("error");
+  alert("Please Allow Location Permission");
 }
 function fetchData() {
   fetch(api)
