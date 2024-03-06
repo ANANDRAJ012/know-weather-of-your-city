@@ -154,12 +154,16 @@ body {
         font-size: 23px;
         line-height: 60px;
         width: 115px;
+        height: 110px;
+    width: 126px;
     }
 }
 @media (max-width: 450px) {
-    .item1
+    .item1, .item2
     {
       font-size: 23px;
+      height: 110px;
+    width: 126px;
       
     }
 }
