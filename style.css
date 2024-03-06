@@ -59,6 +59,7 @@ body {
     display: flex;
     height: 33px;
     width: 344px;
+     border: none;
 }
 
 #search_icon {
