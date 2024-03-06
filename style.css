@@ -109,7 +109,7 @@ body {
     flex-direction: row;
     /* border: 1px solid black; */
 }
-
+.container,
 .item1,
 .item2,
 .item3,
@@ -121,8 +121,6 @@ body {
     border-radius: 5px;
     height: auto;
     padding: 12px;
-    /* min-height: 223px;
-   min-width: 203px; */
     background-color: rgb(126, 201, 226, .3);
     /* border: 3px solid rgb(85, 181, 214); */
     align-items: center;
@@ -135,7 +133,8 @@ body {
 /* Media query for screen width up to 450px */
 @media (max-width: 450px) {
 
-    .container .item1,
+    .container 
+    .item1,
     .item2,
     .item3,
     .item4,
@@ -143,7 +142,8 @@ body {
     .item6 {
         flex-wrap: wrap;
         display: flex;
-        margin: 11px;
+        /* margin: 11px; */
+        margin: auto;
         border-radius: 5px;
         height: auto;
         padding: 12px;
@@ -156,10 +156,19 @@ body {
         width: 115px;
     }
 }
+@media (max-width: 450px) {
+    .item1
+    {
+      font-size: 23px;
+      
+    }
+}
 
 @media (max-width:450px) {
     #input {
-        width: 238px;
+        width: 184px;
+        border: none;
+        font-size: 18px;
     }
 
 }
@@ -176,7 +185,8 @@ body {
 
 @media (max-width:450px) {
     .get_location {
-        width: 160px;
+        width: 116px;
+        font-size: 21px;
         margin-top: 0px;
     }
 }
@@ -184,6 +194,39 @@ body {
 @media (max-width:450px) {
     .city_Name {
         margin-top: 0px;
-        font-size: 52px;
+        font-size: 33px;
+    }
+}
+@media(max-width:450px){
+    .containernav {
+        height: 45px;
+       
+      }
+}
+@media(max-width:450px){
+    #weather_Icon {
+        height: 36px;
+        
+      }
+}
+@media(max-width:450px){
+    .content input {
+        margin-top: 11px;
+    }
+}
+@media(max-width:450px){
+    .location img {
+        margin: 11px 0px 0px 14px;
+        height: 40px;
+      }
+}
+@media(max-width:450px){
+    .cityName{
+        margin: 0px;
+    }
+}
+@media(max-width:450px){
+    .continer{
+        margin: 0px;
     }
 }
